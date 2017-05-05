@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 15.0.26228.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{D541F8D3-4343-4383-968E-77BB682B3F04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9F4F54CE-7E79-4BAE-A54A-1CD86C1F8E02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{0F32809F-2451-463F-9FBC-22BFA61D720F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Extensions.Hosting", "src\Microsoft.Extensions.Hosting\Microsoft.Extensions.Hosting.csproj", "{DC644F8F-80C2-4FAB-AF97-23C4EA7FCA20}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Extensions.Messaging.RabbitMQ", "src\Microsoft.Extensions.Messaging.RabbitMQ\Microsoft.Extensions.Messaging.RabbitMQ.csproj", "{4F3236B7-449F-4327-9363-9BEA70EA2510}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleConsoleHostSample", "samples\SimpleConsoleHostSample\SimpleConsoleHostSample.csproj", "{333F9A13-9AF0-419F-A2FB-D4E4A2AB38D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC644F8F-80C2-4FAB-AF97-23C4EA7FCA20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC644F8F-80C2-4FAB-AF97-23C4EA7FCA20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC644F8F-80C2-4FAB-AF97-23C4EA7FCA20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC644F8F-80C2-4FAB-AF97-23C4EA7FCA20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F3236B7-449F-4327-9363-9BEA70EA2510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F3236B7-449F-4327-9363-9BEA70EA2510}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F3236B7-449F-4327-9363-9BEA70EA2510}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F3236B7-449F-4327-9363-9BEA70EA2510}.Release|Any CPU.Build.0 = Release|Any CPU
+		{333F9A13-9AF0-419F-A2FB-D4E4A2AB38D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{333F9A13-9AF0-419F-A2FB-D4E4A2AB38D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{333F9A13-9AF0-419F-A2FB-D4E4A2AB38D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{333F9A13-9AF0-419F-A2FB-D4E4A2AB38D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DC644F8F-80C2-4FAB-AF97-23C4EA7FCA20} = {9F4F54CE-7E79-4BAE-A54A-1CD86C1F8E02}
+		{4F3236B7-449F-4327-9363-9BEA70EA2510} = {9F4F54CE-7E79-4BAE-A54A-1CD86C1F8E02}
+		{333F9A13-9AF0-419F-A2FB-D4E4A2AB38D9} = {D541F8D3-4343-4383-968E-77BB682B3F04}
+	EndGlobalSection
+EndGlobal
