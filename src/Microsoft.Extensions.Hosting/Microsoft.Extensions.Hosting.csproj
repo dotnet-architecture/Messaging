@@ -4,7 +4,7 @@
 
   <PropertyGroup>
     <Description>.NET Core hosting infrastructure and startup logic for console applications.</Description>
-    <TargetFrameworks>netstandard1.5</TargetFrameworks>
+    <TargetFrameworks>netcoreapp2.0</TargetFrameworks>
     <NoWarn>$(NoWarn);CS1591</NoWarn>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <PackageTags>dotnetcore;hosting</PackageTags>
